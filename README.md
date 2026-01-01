@@ -15,15 +15,15 @@ type UserKeys = keyof User; // "id" | "name"
 
 Numeric Enum এর উদাহরণ:
 enum Direction {
-  Up,       // 0
-  Down,     // 1
-  Left,     // 2
-  Right,    // 3
+  Up,       
+  Down,     
+  Left,     
+  Right,    
 }
 
 let move: Direction = Direction.Left;
 console.log(move); // Output: 2
-
+এখানে enum-এর মানগুলো স্বয়ংক্রিয়ভাবে 0 থেকে শুরু হয় 
 
 String Enum এর উদাহরণ:
 
